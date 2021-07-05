@@ -17,9 +17,9 @@
 
 				<form role="form" action="modifyPage" method="post">
 
-					<input type='hidden' name='bno' value="${boardVO.bno}"> <input
-						type='hidden' name='page' value="${cri.page}"> <input
-						type='hidden' name='perPageNum' value="${cri.perPageNum}">
+					<input type='hidden' name='bno' value="${boardVO.bno}"> 
+					<input type='hidden' name='page' value="${cri.page}"> 
+					<input type='hidden' name='perPageNum' value="${cri.perPageNum}">
 					<input type='hidden' name='searchType' value="${cri.searchType}">
 					<input type='hidden' name='keyword' value="${cri.keyword}">
 
