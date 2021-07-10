@@ -92,10 +92,10 @@
 		<!-- <property name="mapperLocations" value="classpath:mappers/**/*Mapper.xml"></property> -->
 	</bean>
 
-	<mybatis-spring:scan base-package="org.zerock.mapper" />
+	<mybatis-spring:scan base-package="com.care.mapper" />
 
-	<context:component-scan base-package="org.zerock.sample"></context:component-scan>
-	<context:component-scan base-package="org.zerock.service"></context:component-scan>
+<!-- 	<context:component-scan base-package="com.care.sample"></context:component-scan> -->
+	<context:component-scan base-package="com.care.service"></context:component-scan>
 	
 	
 	
